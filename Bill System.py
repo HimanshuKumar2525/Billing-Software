@@ -5,6 +5,7 @@ import csv
 import random
 class Bill_app:
     def __init__(self, root):
+        print("Pillow is working!")  # Confirm Pillow installation
         self.root = root
         self.root.geometry("1920x1080+0+0")
         self.root.title("Billing Software")
